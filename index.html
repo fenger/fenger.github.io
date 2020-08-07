@@ -67,6 +67,52 @@
                     
 <div class="res-cons">
     
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="http://fenger.cc/2020/08/07/multi-git-account-config.html" title="Git多账号配置">Git多账号配置</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2020年8月7日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='http://fenger.cc/categories/Git'>Git</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            系统: Mac 查看当前是否存在 ls ~/.ssh/ 默认情况下，id_rsa为私钥文件，id_rsa.pub为公钥文件，如果有的话，证明之前生成过。 生成新公钥 格式为： ssh-keygen -t rsa -f ~/.ssh/文件名 -C &quot;邮箱&quot; 文件名任意，邮箱为对应网站的邮箱。 例如我要生成两个，一个对应github，一个对……
+        </div>
+        <p class="readmore"><a href="http://fenger.cc/2020/08/07/multi-git-account-config.html">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="http://fenger.cc/2020/08/07/build-redis-sentinel-cluster.html" title="Redis哨兵集群搭建">Redis哨兵集群搭建</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2020年8月7日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='http://fenger.cc/categories/Redis'>Redis</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            系统： [root@localhost ~]# cat /etc/redhat-release CentOS Linux release 7.7.1908 (Core) 机器数：3台 下载安装redis 源码包 redis官网并没有提供二级制包，所以需要下载源码自行构建安装。这里下载的是当前最新的稳定版本6.0.6。 依赖 redis构建依赖gcc，所以需要安装: 1 yum install gcc-c++ -y 构建 解压下载的包，这里是redis-6.0.6.tar.gz……
+        </div>
+        <p class="readmore"><a href="http://fenger.cc/2020/08/07/build-redis-sentinel-cluster.html">阅读全文</a></p>
+    </article>
+    
     
 
 
@@ -135,6 +181,14 @@ if (!doNotTrack) {
         <h3 class="widget-title">最近文章</h3>
 <ul class="widget-list">
     
+    <li>
+        <a href="http://fenger.cc/2020/08/07/multi-git-account-config.html" title="Git多账号配置">Git多账号配置</a>
+    </li>
+    
+    <li>
+        <a href="http://fenger.cc/2020/08/07/build-redis-sentinel-cluster.html" title="Redis哨兵集群搭建">Redis哨兵集群搭建</a>
+    </li>
+    
 </ul>
     </section>
 
@@ -144,12 +198,20 @@ if (!doNotTrack) {
         <h3 class="widget-title">分类</h3>
 <ul class="widget-list">
     
+    <li><a href="http://fenger.cc/categories/Git/">Git (1)</a></li>
+    
+    <li><a href="http://fenger.cc/categories/Redis/">Redis (1)</a></li>
+    
 </ul>
     </section>
 
     <section class="widget">
         <h3 class="widget-title">标签</h3>
 <div class="tagcloud">
+    
+    <a href="http://fenger.cc/tags/git/">git</a>
+    
+    <a href="http://fenger.cc/tags/redis/">redis</a>
     
 </div>
     </section>

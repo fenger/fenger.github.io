@@ -6,9 +6,28 @@
     <description>Recent content in Tags on Fenger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
+    <lastBuildDate>Fri, 07 Aug 2020 15:33:42 +0800</lastBuildDate>
     
 	<atom:link href="http://fenger.cc/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>git</title>
+      <link>http://fenger.cc/tags/git/</link>
+      <pubDate>Fri, 07 Aug 2020 15:33:42 +0800</pubDate>
+      
+      <guid>http://fenger.cc/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redis</title>
+      <link>http://fenger.cc/tags/redis/</link>
+      <pubDate>Fri, 07 Aug 2020 15:33:42 +0800</pubDate>
+      
+      <guid>http://fenger.cc/tags/redis/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

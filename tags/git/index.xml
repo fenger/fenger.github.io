@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Fenger</title>
+    <link>http://fenger.cc/tags/git/</link>
+    <description>Recent content in git on Fenger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 07 Aug 2020 15:33:42 +0800</lastBuildDate>
+    
+	<atom:link href="http://fenger.cc/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git多账号配置</title>
+      <link>http://fenger.cc/2020/08/07/multi-git-account-config.html</link>
+      <pubDate>Fri, 07 Aug 2020 15:33:42 +0800</pubDate>
+      
+      <guid>http://fenger.cc/2020/08/07/multi-git-account-config.html</guid>
+      <description>系统: Mac 查看当前是否存在 ls ~/.ssh/ 默认情况下，id_rsa为私钥文件，id_rsa.pub为公钥文件，如果有的话，证明之前生成过。 生成新公钥 格式为： ssh-keygen -t rsa -f ~/.ssh/文件名 -C &amp;quot;邮箱&amp;quot; 文件名任意，邮箱为对应网站的邮箱。 例如我要生成两个，一个对应github，一个对</description>
+    </item>
+    
+  </channel>
+</rss>
